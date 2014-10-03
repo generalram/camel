@@ -1,4 +1,4 @@
-camel
+CAMEL
 =====
 
 CAMEL: Client and Matter Electronic Litigation System
