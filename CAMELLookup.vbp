@@ -1,13 +1,13 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
-Reference=*\G{2A75196C-D9EB-4129-B803-931327F72D5C}#2.8#0#..\..\..\..\..\..\Program Files\Common Files\System\ado\msado15.dll#Microsoft ActiveX Data Objects 2.8 Library
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{2A75196C-D9EB-4129-B803-931327F72D5C}#2.8#0#..\..\Program Files\Common Files\system\ado\msado15.dll#Microsoft ActiveX Data Objects 2.8 Library
 Object={67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0; MSADODC.OCX
 Form=frmAbout.frm
 Module=CAMELS; CAMELS.bas
 Module=XORMAD; XORMAD.bas
 Object={CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0; MSDATGRD.OCX
 Object={86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCT2.OCX
-Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
 Form=frm_ClientSearch.frm
 Form=frm_MatterSearch.frm
 Form=Frm_Main.frm

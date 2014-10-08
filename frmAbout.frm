@@ -55,7 +55,7 @@ Begin VB.Form frmAbout
       Y2              =   1687.583
    End
    Begin VB.Label lblDescription 
-      Caption         =   "App Description"
+      Caption         =   "Legal Practice Management Search Engine"
       ForeColor       =   &H00000000&
       Height          =   1170
       Left            =   1050
@@ -64,7 +64,7 @@ Begin VB.Form frmAbout
       Width           =   3885
    End
    Begin VB.Label lblTitle 
-      Caption         =   "Application Title"
+      Caption         =   "CAMEL Client and Matter Electronic Litigation"
       ForeColor       =   &H00000000&
       Height          =   480
       Left            =   1050
@@ -82,7 +82,7 @@ Begin VB.Form frmAbout
       Y2              =   1697.936
    End
    Begin VB.Label lblVersion 
-      Caption         =   "Version"
+      Caption         =   "Version 0.019"
       Height          =   225
       Left            =   1050
       TabIndex        =   6
