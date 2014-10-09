@@ -82,7 +82,7 @@ Begin VB.Form frmAbout
       Y2              =   1697.936
    End
    Begin VB.Label lblVersion 
-      Caption         =   "Version 0.019"
+      Caption         =   "Version 0.020"
       Height          =   225
       Left            =   1050
       TabIndex        =   6

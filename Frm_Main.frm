@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin VB.Form Frm_Main 
    Caption         =   "Form1"
-   ClientHeight    =   6330
+   ClientHeight    =   6765
    ClientLeft      =   3120
    ClientTop       =   420
-   ClientWidth     =   8790
+   ClientWidth     =   9090
    BeginProperty Font 
       Name            =   "Arial"
       Size            =   9.75
@@ -15,8 +15,8 @@ Begin VB.Form Frm_Main
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form1"
-   ScaleHeight     =   6330
-   ScaleWidth      =   8790
+   ScaleHeight     =   6765
+   ScaleWidth      =   9090
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton cmd_Exit 
       Caption         =   "Exit"
@@ -32,13 +32,13 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   3840
       TabIndex        =   12
-      Top             =   5280
+      Top             =   5520
       Width           =   975
    End
    Begin VB.CommandButton cmd_Help 
       Caption         =   "Help"
       Height          =   360
-      Left            =   8040
+      Left            =   8160
       TabIndex        =   38
       Top             =   360
       Visible         =   0   'False
@@ -47,7 +47,7 @@ Begin VB.Form Frm_Main
    Begin VB.CommandButton cmd_About 
       Caption         =   "About"
       Height          =   375
-      Left            =   8040
+      Left            =   8160
       TabIndex        =   37
       Top             =   0
       Width           =   735
@@ -66,7 +66,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   1200
       TabIndex        =   9
-      Top             =   3480
+      Top             =   3720
       Width           =   975
    End
    Begin VB.ComboBox cbo_MatterList 
@@ -83,7 +83,7 @@ Begin VB.Form Frm_Main
       Left            =   2760
       TabIndex        =   11
       Text            =   "Combo1"
-      Top             =   4800
+      Top             =   5040
       Width           =   5775
    End
    Begin VB.CommandButton cmd_ClearMatterList 
@@ -100,7 +100,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   33
-      Top             =   4680
+      Top             =   4920
       Width           =   735
    End
    Begin VB.CommandButton cmd_ClearAll 
@@ -117,7 +117,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   32
-      Top             =   3480
+      Top             =   3720
       Width           =   735
    End
    Begin VB.CheckBox chk_MatterBillingActive 
@@ -134,7 +134,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   5880
       TabIndex        =   30
-      Top             =   3000
+      Top             =   3240
       Width           =   1815
    End
    Begin VB.CheckBox chk_MatterSearchActive 
@@ -151,7 +151,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   2760
       TabIndex        =   29
-      Top             =   3000
+      Top             =   3240
       Width           =   1815
    End
    Begin VB.CheckBox chk_ClientBillingActive 
@@ -168,7 +168,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   5880
       TabIndex        =   28
-      Top             =   1560
+      Top             =   1800
       Width           =   1815
    End
    Begin VB.CheckBox chk_ClientSearchActive 
@@ -185,7 +185,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   2880
       TabIndex        =   27
-      Top             =   1560
+      Top             =   1800
       Width           =   1815
    End
    Begin VB.CommandButton cmd_ClearAttorney 
@@ -202,7 +202,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   26
-      Top             =   4080
+      Top             =   4320
       Width           =   735
    End
    Begin VB.ComboBox cbo_AttorneyList 
@@ -219,7 +219,7 @@ Begin VB.Form Frm_Main
       Left            =   2760
       TabIndex        =   10
       Text            =   "Combo1"
-      Top             =   4200
+      Top             =   4440
       Width           =   5775
    End
    Begin VB.CommandButton cmd_ClearMatterNumber 
@@ -236,7 +236,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   24
-      Top             =   2520
+      Top             =   2760
       Width           =   735
    End
    Begin VB.CommandButton cmd_ClearMatterName 
@@ -253,7 +253,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   23
-      Top             =   2040
+      Top             =   2280
       Width           =   735
    End
    Begin VB.CommandButton cmd_ClearClientNumber 
@@ -270,7 +270,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   22
-      Top             =   1080
+      Top             =   1320
       Width           =   735
    End
    Begin VB.CommandButton cmd_ClearClientName 
@@ -287,7 +287,7 @@ Begin VB.Form Frm_Main
       Height          =   495
       Left            =   0
       TabIndex        =   21
-      Top             =   600
+      Top             =   840
       Width           =   735
    End
    Begin VB.TextBox txt_MatterName 
@@ -303,7 +303,7 @@ Begin VB.Form Frm_Main
       Height          =   285
       Left            =   2760
       TabIndex        =   5
-      Top             =   2160
+      Top             =   2400
       Width           =   2175
    End
    Begin VB.TextBox txt_MatterNumber 
@@ -319,7 +319,7 @@ Begin VB.Form Frm_Main
       Height          =   285
       Left            =   2760
       TabIndex        =   7
-      Top             =   2640
+      Top             =   2880
       Width           =   2175
    End
    Begin VB.ComboBox cbo_MatterNumber 
@@ -336,7 +336,7 @@ Begin VB.Form Frm_Main
       Left            =   5880
       TabIndex        =   8
       Text            =   "Matter Number List"
-      Top             =   2640
+      Top             =   2880
       Width           =   2655
    End
    Begin VB.ComboBox cbo_MatterName 
@@ -353,7 +353,7 @@ Begin VB.Form Frm_Main
       Left            =   5880
       TabIndex        =   6
       Text            =   "Matter Name List"
-      Top             =   2160
+      Top             =   2400
       Width           =   2655
    End
    Begin VB.ComboBox cbo_ClientName 
@@ -370,7 +370,7 @@ Begin VB.Form Frm_Main
       Left            =   5880
       TabIndex        =   2
       Text            =   "Client Name List"
-      Top             =   720
+      Top             =   960
       Width           =   2655
    End
    Begin VB.ComboBox cbo_ClientNumber 
@@ -387,7 +387,7 @@ Begin VB.Form Frm_Main
       Left            =   5880
       TabIndex        =   4
       Text            =   "Client Number List"
-      Top             =   1200
+      Top             =   1440
       Width           =   2655
    End
    Begin VB.TextBox txt_ClientNumber 
@@ -403,7 +403,7 @@ Begin VB.Form Frm_Main
       Height          =   285
       Left            =   2760
       TabIndex        =   3
-      Top             =   1200
+      Top             =   1440
       Width           =   2175
    End
    Begin VB.TextBox txt_ClientName 
@@ -419,7 +419,7 @@ Begin VB.Form Frm_Main
       Height          =   285
       Left            =   2760
       TabIndex        =   1
-      Top             =   720
+      Top             =   960
       Width           =   2175
    End
    Begin VB.Label lbl_Title2 
@@ -440,7 +440,7 @@ Begin VB.Form Frm_Main
       Height          =   450
       Left            =   0
       TabIndex        =   36
-      Top             =   240
+      Top             =   360
       Width           =   8115
    End
    Begin VB.Label lbl_SearchStatus 
@@ -456,7 +456,7 @@ Begin VB.Form Frm_Main
       Height          =   375
       Left            =   2760
       TabIndex        =   35
-      Top             =   3600
+      Top             =   3840
       Width           =   5655
    End
    Begin VB.Label lbl_MatterList 
@@ -473,13 +473,13 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   34
-      Top             =   4800
+      Top             =   5040
       Width           =   1335
    End
    Begin VB.Label lbl_Copyright 
       Alignment       =   2  'Center
       BackColor       =   &H00FFFFC0&
-      Caption         =   "Copyright XORMAD 2007, 2008, All rights reserved. Duplication of this product without authorization from XORMAD is prohibited."
+      Caption         =   "  Copyright XORMAD 2003 - 2014,  All rights reserved. Duplication of this product without authorization from XORMAD is prohibited."
       BeginProperty Font 
          Name            =   "Courier New"
          Size            =   8.25
@@ -491,10 +491,10 @@ Begin VB.Form Frm_Main
       EndProperty
       ForeColor       =   &H00004000&
       Height          =   615
-      Left            =   0
+      Left            =   -120
       TabIndex        =   31
-      Top             =   5760
-      Width           =   8775
+      Top             =   6120
+      Width           =   9255
    End
    Begin VB.Label lbl_Attorney 
       Caption         =   "Attorney List"
@@ -510,7 +510,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   25
-      Top             =   4200
+      Top             =   4440
       Width           =   1335
    End
    Begin VB.Label lbl_MatterName 
@@ -527,7 +527,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   20
-      Top             =   2160
+      Top             =   2400
       Width           =   1335
    End
    Begin VB.Label lbl_MatterNumber 
@@ -544,7 +544,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   19
-      Top             =   2640
+      Top             =   2880
       Width           =   1335
    End
    Begin VB.Label Label3 
@@ -562,7 +562,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   5160
       TabIndex        =   18
-      Top             =   2160
+      Top             =   2400
       Width           =   495
    End
    Begin VB.Label Label2 
@@ -580,7 +580,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   5160
       TabIndex        =   17
-      Top             =   2640
+      Top             =   2880
       Width           =   495
    End
    Begin VB.Label Label1 
@@ -598,7 +598,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   5160
       TabIndex        =   16
-      Top             =   1200
+      Top             =   1440
       Width           =   495
    End
    Begin VB.Label lbl_Or1 
@@ -616,7 +616,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   5160
       TabIndex        =   15
-      Top             =   720
+      Top             =   960
       Width           =   495
    End
    Begin VB.Label lbl_Title 
@@ -634,7 +634,7 @@ Begin VB.Form Frm_Main
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FFFF00&
-      Height          =   330
+      Height          =   450
       Left            =   0
       TabIndex        =   14
       Top             =   0
@@ -654,7 +654,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   13
-      Top             =   1200
+      Top             =   1440
       Width           =   1335
    End
    Begin VB.Label lbl_ClientName 
@@ -671,7 +671,7 @@ Begin VB.Form Frm_Main
       Height          =   255
       Left            =   1200
       TabIndex        =   0
-      Top             =   720
+      Top             =   960
       Width           =   1335
    End
 End

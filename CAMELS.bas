@@ -1,21 +1,19 @@
 Attribute VB_Name = "CAMELS"
 'Shared CAMELS Module between CAMEL systems.
+Dim FileDatabase As String ' Global variable stores where the MS-Access file is located
+
+
 Sub CMSearch()
 Dim iresponse As Integer
     Dim s_Query As String
     Dim Conn1 As New ADODB.Connection
     Dim RS1 As New ADODB.Recordset
-    Dim FileDatabase As String
+    
     Dim s_ClientName As String
     Dim s_ClientNumber As String
     Dim b_cboClientName As Boolean
     Dim b_txtClientName As Boolean
     
-    
-    FileDatabase = App.Path & "\CAMELSDATA.mdb"
-
-    
-
     If XorTrim(Frm_Main.txt_ClientName.Text) = "" And XorTrim(Frm_Main.txt_ClientNumber.Text) = "" And XorTrim(Frm_Main.cbo_ClientName.Text) = "" Then
      
         iresponse = MsgBox("Please enter client information for a search.", vbCritical, "Missing Client Info")
@@ -81,7 +79,7 @@ Dim iresponse As Integer
     Dim s_Query As String
     Dim Conn1 As New ADODB.Connection
     Dim RS1 As New ADODB.Recordset
-    Dim FileDatabase As String
+
     
     FileDatabase = App.Path & "\CAMELSDATA.mdb"
 
