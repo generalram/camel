@@ -18,3 +18,8 @@ This is a complete and totally written from scratch project. It does not use cod
 Goals are to search client and matter information into a listview control, add the ability to copy data to Word templates like an Invoice or Check Request, add in Data Entry forms to add and edit and delete data, and possibly make a web version in ASP or PHP later on.
 
 Of course I have plans to develop the same app in more modern programming languages, but many law firms are still using older technology so this is a legacy Windows project for now. It should be able to be run from Windows 95 to Windows XP, not sure about Vista, 7, 8.X, and 10 that may require Visual Studio 2013 instead of Visual Studio 6.
+
+You can contact me at:
+Norman King
+normanking@gmail.com
+generalram@sbcglobal.net
