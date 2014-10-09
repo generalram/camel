@@ -21,5 +21,7 @@ Of course I have plans to develop the same app in more modern programming langua
 
 You can contact me at:
 Norman King
+
 normanking@gmail.com
+
 generalram@sbcglobal.net
