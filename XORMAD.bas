@@ -27,23 +27,40 @@ End Function
 
 Function SQLFilter(sqlstring As String) As String
     ' By Norman King 10/10/2014
-    ' This function takes a string and tries to sanitize it to prevent
+    ' This function takes a string and tries to filter it to prevent
     ' SQL injections
-    Dim StrLength As Integer
-    Dim iCount As Integer
-    Dim s_sanitized As String
+    Dim s_filtered As String
     
-    s_sanitized = ""
     
-    StrLength = Len(sqlstring)
+    s_filtered = sqlstring
     
-    For iCount = 1 To StrLength
-       If Mid(sqlstring, iCount, 1) = "'" Then
-          s_sanitized = s_sanitized & "'''"
-       Else
-          s_sanitized = s_sanitized & Mid(sqlstring, iCount, 1)
-       End If
-    Next
+    s_filtered = Replace(s_filtered, "'", "''")
+    s_filtered = Replace(s_filtered, ";", "';'")
+    s_filtered = Replace(s_filtered, ":", "':'")
+    s_filtered = Replace(s_filtered, Chr(34), Chr34 & Chr(34))
     
-    SQLFilter = s_sanitized
+    
+    
+
+    SQLFilter = s_filtered
+End Function
+
+Function HTMLFilter(sqlstring As String) As String
+    ' By Norman King 10/10/2014
+    ' This function takes a string and tries to filter it to prevent
+    ' HTML attacks
+    Dim s_filtered As String
+    
+    
+    s_filtered = sqlstring
+    
+    s_filtered = Replace(s_filtered, "&", "&amp;")
+    s_filtered = Replace(s_filtered, "<", "&lt;")
+    s_filtered = Replace(s_filtered, ">", "&gt;")
+    s_filtered = Replace(s_filtered, "'", "&quot;")
+    
+    
+    
+
+    HTMLFilter = s_filtered
 End Function

@@ -1,0 +1,8 @@
+Filter out SQL commands by replacing the following:
+
+replace & with '&'
+replace ; with ';'
+replace : with ':'
+replace " with ""
+replace ' with ''
+

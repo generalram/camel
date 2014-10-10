@@ -1,0 +1,7 @@
+Filter out HTML tags by replacing the following:
+
+replace & with &amp;
+replace < with &lt;
+replace > with &gt;
+replace " with &quot;
+replace newlines with <br> plus a newline
