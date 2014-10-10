@@ -24,3 +24,26 @@ Function XorTrim(vdata As Variant) As Variant
     ' to avoid runtime errors like invalid use of null
     XorTrim = Trim("" & vdata)
 End Function
+
+Function SQLFilter(sqlstring As String) As String
+    ' By Norman King 10/10/2014
+    ' This function takes a string and tries to sanitize it to prevent
+    ' SQL injections
+    Dim StrLength As Integer
+    Dim iCount As Integer
+    Dim s_sanitized As String
+    
+    s_sanitized = ""
+    
+    StrLength = Len(sqlstring)
+    
+    For iCount = 1 To StrLength
+       If Mid(sqlstring, iCount, 1) = "'" Then
+          s_sanitized = s_sanitized & "'''"
+       Else
+          s_sanitized = s_sanitized & Mid(sqlstring, iCount, 1)
+       End If
+    Next
+    
+    SQLFilter = s_sanitized
+End Function

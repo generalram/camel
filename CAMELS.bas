@@ -4,7 +4,7 @@ Dim FileDatabase As String ' Global variable stores where the MS-Access file is 
 
 
 Sub CMSearch()
-Dim iresponse As Integer
+    Dim iresponse As Integer
     Dim s_Query As String
     Dim Conn1 As New ADODB.Connection
     Dim RS1 As New ADODB.Recordset

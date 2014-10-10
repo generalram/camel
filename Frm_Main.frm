@@ -426,7 +426,7 @@ Begin VB.Form Frm_Main
       Alignment       =   2  'Center
       BackColor       =   &H8000000D&
       BorderStyle     =   1  'Fixed Single
-      Caption         =   "(Client And Matter Electronic Legal System)"
+      Caption         =   "(Client And Matter Electronic Litigation System)"
       BeginProperty Font 
          Name            =   "Courier New"
          Size            =   12
@@ -623,7 +623,7 @@ Begin VB.Form Frm_Main
       Alignment       =   2  'Center
       BackColor       =   &H8000000D&
       BorderStyle     =   1  'Fixed Single
-      Caption         =   "CAMEL Search"
+      Caption         =   "CAMEL Lookup Search"
       BeginProperty Font 
          Name            =   "Courier New"
          Size            =   12
