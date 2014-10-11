@@ -2,7 +2,6 @@ Attribute VB_Name = "CAMELS"
 'Shared CAMELS Module between CAMEL systems.
 Dim FileDatabase As String ' Global variable stores where the MS-Access file is located
 
-
 Sub CMSearch()
     Dim iresponse As Integer
     Dim s_Query As String

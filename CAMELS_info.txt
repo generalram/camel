@@ -1,0 +1,119 @@
+Project: CAMELS
+
+Client and Matter Electronic Legal System
+
+Goal: To serve the needs of small law firms and be adapted to work for small businesses 
+as well.
+
+Given a background in developing legal software for four and a half years, and small 
+business experience for a few years and a four year bachelors in business administration, 
+Norman King is working on a series of software for small business and small law firms 
+by starting out from scratch and doing things differently than he did when he worked for 
+a law firm and ran his own small businesses. This is because business changes and it is 
+best to adapt to change instead of repeating the mistakes of the past over and over again. 
+This time the slate will be started out new, and there will be innovation into new ways of 
+doing things.
+
+The old software written had “legacy issues” with old operating systems and old 
+application software. First the prototype will be written in Visual BASIC 6.0 for legacy 
+support and then converted to Visual BASIC 2005 or Visual C# 2005 and above. In the 
+conversion most code will be rewritten to take advantage of things like Microsoft.Net, 
+XML, and newer versions of Windows and Crystal Reports that didn’t exist back in 2002 
+or earlier when Norman last worked on software. Over the past five years, Norman went 
+back to college and studied new technologies to find new ways of doing things, and to 
+write better software than he had written before.
+
+Sometimes Law Firms need to connect to Extranet networks and exchange information. 
+One of the goals of this software will be to use open standards that any law firm can use 
+to exchange data between firms. The CAMEL database will have support added to search 
+information from extra tables added to contain data from other law firms. Over time the 
+database will grow and evolve to hold new and different data and find a way to convert 
+and exchange data from different databases. This can be hard when the definitions of 
+other databases are closed and proprietary. So the CAMEL system will have to 
+implement open source database structures that can be shared between law firms and 
+even offer a “no frills” open source version of the CAMEL software for other law firms 
+to build around and customize so that when law firms merge together or exchange data 
+there are some open standards to use to help ease the flow of data. There will also be an 
+export and import option to export and import data files in text CSV comma separated 
+values, XML files, HTML tables, and some other common formats along with a way to 
+communicate over the Internet to exchange data.
+
+First there will be implemented a Matters Management system that searches data on a 
+client and matter numbers, names, and other information like billing attorney. Then there 
+will be a Conflict Management system in which clients and matters will have the 
+conflicts recorded. Then a case management system to review court cases, pleadings, etc 
+and keep track of judges, court types, area of law experience, judge experience, court 
+experience of the various attorneys. Then there will be created a docket calendar to keep 
+track of docket and nondocket information. Then there will be a contact management 
+program to keep track of clients, organizations, witnesses, judges, etc. Then there will be 
+an attempt to combine those systems and any other systems into one searchable database. 
+
+For the commercial version there will be reserved such features as customizing it for each 
+law firm, adding a knowledge base management system with optional searches on 
+external Law and Internet search engines, a reporting system that can export data into 
+certain document formats like PDF, Word, Wordperfect, Excel, ODF, RTF, TIFF, JPG, 
+PNG, etc. Plus the option to use more than just MS-SQL Server and MS-Access 
+databases such as Firebird, MySQL, Oracle based on the customizations needed. There 
+will be synching the Docket Calendar and other things to MS-Outlook, 
+Thunderbird/Lighting Calendar, Evolution email and calendar, etc.
+
+Because some law firms use more than just Windows systems there will be either a 
+Python, Java, or C++ version that can be run on Mac OSX, Linux, BSD Unix and other 
+systems that support those languages. This is an advanced goal to be cross platform as 
+most other law software makers only target Windows and don’t have a solution for 
+running on other operating systems. We understand that some of the attorneys and 
+employees need Mac OSX, Linux, BSD Unix systems for various software that isn’t 
+available for Windows, and that a non-Windows system is not as prone to virus infections 
+so they are safer to use in the interest of security.
+
+Phase One:
+Start the project in Visual BASIC 6.0 as a prototype using MS-Access 2003 as the 
+database. Work out design issues, develop a basic system for managing client and matter 
+searches as well as displaying client and matter information. CAMEL Lookup should be 
+an application that can search client and matter issues, CAMEL Info should be a program 
+that can display client and matter information, CAMEL Entry should be a program that 
+can do data entry and edits of database information. All three programs should interact 
+with each other via OLE/DDE communication.
+
+Phase Two:
+Convert code to Visual BASIC 2005 or Visual C# 2005 or higher. Possible C++, Java, or 
+Python ports as well. This should develop a generic skeleton program that can be 
+customized to serve the needs of the company it will be modified for. The goal is to 
+modify custom programs to fit a business in the same way that a suit is tailored to suit a 
+person, and like each suit, each customized program is different. The programs should 
+work not only with Windows, but also with Linux, Mac OSX, BSD Unix, etc so C++, 
+Java, and Python conversions may be needed for that. Database needs to be migrated to 
+SQL Server 2005, MySQL, Oracle, Postgres, or some other high end database that goes 
+beyond what MS-Access 2003 provides. The goal here is to become operating system 
+agonistic and database agnostic, in which it should not matter what operating system or 
+database the software is powered by, as long as it is of good quality and meets the needs 
+of the business it is designed for as well.
+
+Possible we might have to work on the Windows version first, and sell that, to raise 
+enough money to support other operating systems and languages later. After that we 
+should be able to hire developers to help with the work and be able to do that. Doing it all 
+with just one person is going to be a major challenge. A goal of any business is to 
+become profitable enough to hire on employees to take on their fair share of the work. As 
+of this writing no business has been formed, and most likely won’t be formed until we 
+can get a working prototype and get into phase two, so that we have something to show 
+the bank or possible investors that works as a proof of concept. Working name for 
+business is XORMAD and xormad.com was registered in Norman’s name. XORMAD 
+stands for eXtreme Oriented Revolutionary Management and Design. Classical 
+management and classical design are things that most businesses suffer from, XORMAD 
+exists to take things to the extreme, to the future, and revolutionize software development 
+and business management with a higher quality design.
+
+Marketing:
+Norman is well known for his high quality of work, plus the development is being done 
+in the USA. Being a small business, we should have low overhead and be able to sell our 
+products at a lower price than most software companies. Therefore, XORMAD should be 
+able to offer custom application development programming services and system 
+integration services at a lower cost than bigger corporations. Along with that is that the 
+CAMELS system will be written using best practices and high quality to match other 
+commercial quality software that might exist on the market. Many open source legal 
+software only reach a certain point and then stop developing or are abandoned. The 
+CAMELS system seeks to provide a free as in speech version that is no frills, and can be 
+downloaded for free but XORMAD owns the IP. XORMAD can use it as a template to 
+develop customized versions and sell the services of doing so.
+
+

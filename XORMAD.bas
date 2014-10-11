@@ -38,9 +38,6 @@ Function SQLFilter(sqlstring As String) As String
     s_filtered = Replace(s_filtered, ";", "';'")
     s_filtered = Replace(s_filtered, ":", "':'")
     s_filtered = Replace(s_filtered, Chr(34), Chr34 & Chr(34))
-    
-    
-    
 
     SQLFilter = s_filtered
 End Function
@@ -59,8 +56,5 @@ Function HTMLFilter(sqlstring As String) As String
     s_filtered = Replace(s_filtered, ">", "&gt;")
     s_filtered = Replace(s_filtered, "'", "&quot;")
     
-    
-    
-
     HTMLFilter = s_filtered
 End Function

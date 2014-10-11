@@ -1,5 +1,6 @@
 VERSION 5.00
 Begin VB.Form Frm_Main 
+   AutoRedraw      =   -1  'True
    Caption         =   "Form1"
    ClientHeight    =   6765
    ClientLeft      =   3120
@@ -490,11 +491,11 @@ Begin VB.Form Frm_Main
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00004000&
-      Height          =   615
-      Left            =   -120
+      Height          =   570
+      Left            =   0
       TabIndex        =   31
       Top             =   6120
-      Width           =   9255
+      Width           =   9105
    End
    Begin VB.Label lbl_Attorney 
       Caption         =   "Attorney List"
@@ -680,6 +681,10 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub cbo_ClientName_Change()
+
+End Sub
+
 Private Sub cmd_About_Click()
 Load frmAbout
 frmAbout.Show

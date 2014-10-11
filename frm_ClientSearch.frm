@@ -1,5 +1,6 @@
 VERSION 5.00
 Object = "{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0"; "MSDATGRD.OCX"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.Form frm_ClientSearch 
    BackColor       =   &H00FFFFFF&
    Caption         =   "Form1"
@@ -13,6 +14,25 @@ Begin VB.Form frm_ClientSearch
    ScaleHeight     =   3015
    ScaleWidth      =   8760
    StartUpPosition =   3  'Windows Default
+   Begin MSComctlLib.ListView ListView1 
+      Height          =   1095
+      Left            =   120
+      TabIndex        =   2
+      Top             =   1800
+      Width           =   8415
+      _ExtentX        =   14843
+      _ExtentY        =   1931
+      LabelWrap       =   -1  'True
+      HideSelection   =   -1  'True
+      FullRowSelect   =   -1  'True
+      GridLines       =   -1  'True
+      _Version        =   393217
+      ForeColor       =   -2147483640
+      BackColor       =   -2147483643
+      BorderStyle     =   1
+      Appearance      =   0
+      NumItems        =   0
+   End
    Begin MSDataGridLib.DataGrid DG_ClientSearch 
       Height          =   1095
       Left            =   120
