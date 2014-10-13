@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form Frm_Main 
+Begin VB.Form frm_Main 
    AutoRedraw      =   -1  'True
    Caption         =   "Form1"
    ClientHeight    =   6765

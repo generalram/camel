@@ -1,6 +1,6 @@
 VERSION 5.00
 Object = "{67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0"; "MSADODC.OCX"
-Begin VB.Form Frm_DataEntryClient 
+Begin VB.Form frm_DataEntryClient 
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Tbl_Client"
    ClientHeight    =   7200
@@ -220,7 +220,7 @@ Begin VB.Form Frm_DataEntryClient
       OtherAttributes =   ""
       UserName        =   ""
       Password        =   ""
-      RecordSource    =   $"Frm_DataEntryClient.frx":0000
+      RecordSource    =   $"frm_DataEntryClient.frx":0000
       Caption         =   " "
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "MS Sans Serif"
