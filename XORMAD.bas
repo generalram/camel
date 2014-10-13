@@ -27,6 +27,7 @@ End Function
 
 Function SQLFilter(sqlstring As String) As String
     ' By Norman King 10/10/2014
+    ' normanking@gmail.com
     ' This function takes a string and tries to filter it to prevent
     ' SQL injections
     Dim s_filtered As String
@@ -34,16 +35,22 @@ Function SQLFilter(sqlstring As String) As String
     
     s_filtered = sqlstring
     
-    s_filtered = Replace(s_filtered, "'", "''")
-    s_filtered = Replace(s_filtered, ";", "';'")
-    s_filtered = Replace(s_filtered, ":", "':'")
-    s_filtered = Replace(s_filtered, Chr(34), Chr34 & Chr(34))
+    s_filtered = Replace(s_filtered, "()", "") 'In case of Shellshock exploit
+    s_filtered = Replace(s_filtered, "{ };", "") 'Another Shellshock exploit
+    s_filtered = Replace(s_filtered, "{ :;}", "") 'Another Shellshock exploit
+    s_filtered = Replace(s_filtered, "'", "''") 'Single quote can be used to run SQL Injections, double it up and it cannot be used
+    s_filtered = Replace(s_filtered, ";", "';'") 'Semicolin is used in SQL Injections add quotes around it
+    s_filtered = Replace(s_filtered, ":", "':'") 'Colon is used in SQl Injections add quotes around it
+    s_filtered = Replace(s_filtered, "|", "") 'Pipe character is filtered because it spawns command line instructions
+    s_filtered = Replace(s_filtered, Chr(34), Chr34 & Chr(34)) 'Double quote is used in SQL Injections, double it up, use CHR(34) because that is ASCII value for double quote
 
+    
     SQLFilter = s_filtered
 End Function
 
 Function HTMLFilter(sqlstring As String) As String
     ' By Norman King 10/10/2014
+    ' normanking@gmail.com
     ' This function takes a string and tries to filter it to prevent
     ' HTML attacks
     Dim s_filtered As String

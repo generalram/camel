@@ -1,0 +1,12 @@
+[VB 6 Data Form Wizard]
+DatabaseTypeIndex=0
+DatabaseTypeName=Access
+DatabaseName=C:\source\camel\CAMELSDATA.mdb
+BindType=0
+FormLayout=0
+AddBtn=1
+DelBtn=1
+RefBtn=1
+UptBtn=1
+ClsBtn=1
+DataControl=1
