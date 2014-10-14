@@ -1,6 +1,6 @@
 VERSION 5.00
 Object = "{67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0"; "MSADODC.OCX"
-Begin VB.Form frm_DataEntryClient 
+Begin VB.Form frmDataEntryClient 
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Tbl_Client"
    ClientHeight    =   7200
@@ -342,7 +342,7 @@ Begin VB.Form frm_DataEntryClient
       Width           =   1815
    End
 End
-Attribute VB_Name = "Frm_DataEntryClient"
+Attribute VB_Name = "frmDataEntryClient"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True

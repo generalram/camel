@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form frm_Main 
+Begin VB.Form frmMain 
    AutoRedraw      =   -1  'True
    Caption         =   "Form1"
    ClientHeight    =   6765
@@ -676,7 +676,7 @@ Begin VB.Form frm_Main
       Width           =   1335
    End
 End
-Attribute VB_Name = "Frm_Main"
+Attribute VB_Name = "frmMain"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
