@@ -25,3 +25,5 @@ Norman King
 normanking@gmail.com
 
 generalram@sbcglobal.net
+
+Visual BASIC 6.0 is outdated and not cross platform. CAMEL will be rewritten into Free Pascal and Lazarus as CAMELPAS.
